@@ -30,7 +30,6 @@ node server.js
 ```
 
 The server will run at: http://localhost:3000
-###########
 
 ## 📝 Assumptions Made
 
@@ -45,7 +44,6 @@ The server will run at: http://localhost:3000
 - When a route is completed, the driver is automatically freed (currentRoute = NULL, availability = 1) and a record is added to driver_history
 Each driver has a unique id (primary key).
 
-#########################
 ## ✨ Features Implemented
 
 - Add new drivers (POST /drivers)
@@ -63,7 +61,6 @@ Each driver has a unique id (primary key).
 - View driver history (GET /drivers/:id/history)
 
 - View full schedule with driver assignments (GET /schedule)
-  ###########################################################
    
 ## 📌 Example Commands ( use CMD)
 
