@@ -32,7 +32,7 @@ node server.js
 The server will run at: http://localhost:3000
 ###########
 
-📝 Assumptions Made
+## 📝 Assumptions Made
 
 - Drivers can only have one active route at a time (currentRoute).
 
@@ -46,7 +46,7 @@ The server will run at: http://localhost:3000
 Each driver has a unique id (primary key).
 
 #########################
-✨ Features Implemented
+## ✨ Features Implemented
 
 - Add new drivers (POST /drivers)
 
@@ -63,8 +63,9 @@ Each driver has a unique id (primary key).
 - View driver history (GET /drivers/:id/history)
 
 - View full schedule with driver assignments (GET /schedule)
+  ###########################################################
    
-📌 Example Commands ( use CMD)
+## 📌 Example Commands ( use CMD)
 
 # Add a driver
 ```bash
